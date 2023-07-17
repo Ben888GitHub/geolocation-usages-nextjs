@@ -1,0 +1,31 @@
+Geolocation API
+https://stackoverflow.com/questions/73682632/how-to-get-geolocation-from-user-with-next-js
+
+Abstract API
+- Private API Key is here: https://app.abstractapi.com/api/ip-geolocation/tester
+- Docs: https://docs.abstractapi.com/ip-geolocation
+- Usage Example: https://www.abstractapi.com/guides/how-to-use-ip-geolocation-in-react
+
+IP API
+- Quick Start: https://ipapi.co/#api
+- Docs: https://ipapi.co/api/#specific-location-field
+- Usage Example: https://www.youtube.com/watch?v=bwrWkjM2xWw
+
+Using Middleware:
+- https://dev.to/perkinsjr/using-next-middleware-to-access-and-use-geolocation-in-a-non-dynamic-route-25n
+
+Purpose of Geo-location and why do we need it
+- Access current location properties of the user to know more about the user
+- The Longitude and Latitude can be used to check current weather info or current situation on the map
+- Provide localized content such as local language
+- It can be used for targeted advertising 
+- Fraud prevention
+- It can help you to find your electronic devices if you misplaced them such as Smartphone
+- Business owners can take this one step further with geolocation marketing. If you’ve ever used the app Foursquare, you’ll know that as soon as you touch down in a new city, you’ll get a push notification about all the top restaurants near you that match your preferences.
+
+
+
+More on purpose of Geo-location and what can we do with it:
+- https://storemapper.com/blog/how-does-geolocation-work/#:~:text=Geolocation%20is%20the%20ability%20to,law%20enforcement%20and%20emergency%20response.
+- https://www.investopedia.com/terms/g/geolocation.asp
+- https://blog.apilayer.com/what-is-geolocation-how-it-works-why-it-matters/
