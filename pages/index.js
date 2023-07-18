@@ -2,7 +2,12 @@ import { Inter } from 'next/font/google';
 import GeolocationApi from '@/components/GeolocationApi';
 import AbstractApi from '@/components/AbstractApi';
 import IpApiCo from '@/components/IpApiCo';
-import ReactGeolocated from '@/components/ReactGeolocated';
+import WithUseEffect from '@/components/WithUseEffect';
+import dynamic from 'next/dynamic';
+// import ReactGeolocated from '@/components/ReactGeolocated';
+const ReactGeolocated = dynamic(() => import('@/components/ReactGeolocated'), {
+	ssr: false // This will prevent server-side rendering
+});
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,6 +21,7 @@ export default function Home({ apiKey }) {
 			<GeolocationApi />
 			<AbstractApi apiKey={apiKey} />
 			<IpApiCo />
+			<WithUseEffect />
 			<ReactGeolocated />
 		</main>
 	);
